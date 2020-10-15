@@ -182,6 +182,8 @@ input[type="text"],input[type="tel"],input[type="email"]
     height: 40px;
     font-size: 20px;
     margin: 5%;
+    border: none;
+    border-bottom: 2px solid red;
 }
 
 textarea[type="com"]
@@ -190,6 +192,8 @@ textarea[type="com"]
     height: 70px;
     font-size: 20px;
     margin: 5%;
+    border: none;
+    border-bottom: 2px solid red;
 }
 
 input[type="submit"]
@@ -198,6 +202,7 @@ input[type="submit"]
     height: 40px;
     font-size: 20px;
     margin: 5%;
+    border: none;
     background-color: rgb(33, 190, 41);
 
 }
