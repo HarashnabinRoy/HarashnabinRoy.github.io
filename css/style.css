@@ -61,6 +61,16 @@
     width: 50%;
 }
 
+.contact_column{
+    background-color: rgba(99, 96, 96, 0.5);
+    float: left;
+    width: 50%;
+    
+}
+
+
+
+
 
 
 
@@ -102,6 +112,10 @@
 
 
 
+
+
+
+
 #about{
     padding: 10%;
 }
@@ -135,6 +149,10 @@
 
 
 
+
+
+
+
 #contact{
     padding: 10%;
 }
@@ -160,18 +178,18 @@
 
 input[type="text"],input[type="tel"],input[type="email"]
 {
-    width: 100%;
+    width: 88%;
     height: 40px;
     font-size: 20px;
-    margin: 2%;
+    margin: 5%;
 }
 
 textarea[type="com"]
 {
-    width: 100%;
+    width: 88%;
     height: 70px;
     font-size: 20px;
-    margin: 2%;
+    margin: 5%;
 }
 
 input[type="submit"]
@@ -179,9 +197,11 @@ input[type="submit"]
     width: 110px;
     height: 40px;
     font-size: 20px;
-    margin: 2%;
+    margin: 5%;
     background-color: rgb(33, 190, 41);
+
 }
+
 
 
 
