@@ -178,7 +178,7 @@
 
 input[type="text"],input[type="tel"],input[type="email"]
 {
-    width: 88%;
+    width: 89%;
     height: 40px;
     font-size: 20px;
     margin: 5%;
@@ -186,7 +186,7 @@ input[type="text"],input[type="tel"],input[type="email"]
 
 textarea[type="com"]
 {
-    width: 88%;
+    width: 89%;
     height: 70px;
     font-size: 20px;
     margin: 5%;
