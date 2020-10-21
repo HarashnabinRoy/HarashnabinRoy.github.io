@@ -1,37 +1,86 @@
+/*--------------------------------------------------------------
+# STYLE.CSS
+
+# MADE BY: HARASHNABIN ROY
+# REG. NO.: RA2011003010321 
+--------------------------------------------------------------*/
+
+
+/* ========= GLOBAL =========*/
 *
 {
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
+
+/*------------------------------------------------------------
+                     TOP NAVIGATION BAR 
+------------------------------------------------------------*/
+
+/*========= GEBERAL OPTIONS =========*/
+
 .topnav{
-    background-color: rgba(14, 13, 13, 0.98);
+    background-color: rgba(14, 13, 13, 0.9);
     color: white;
+    position: fixed;
+    top:0;
+    width:100%;
+}
+
+.topnav{
+    position: fixed;
+    white-space: nowrap;
+    display: inline-block;
 }
 
 .topnav a{
     color: white;
     text-decoration: none;
     font-size: 20px;
-    margin-left: 2%;
+    position: relative;
+    margin-right: 2%;
     padding: 14px 16px;
+    transition: 0.4s;
     display:block;
-    float: left;    
+    float: right;  
 } 
-
-.topnav {
-    position: fixed;
-    top:0;
-    width:100%;
-}
 
 .topnav a:hover{
     background-color: white;
     color: #000000;
 }
 
+/*=============== LOGO ==============*/
+.logo a{
+    margin-left: 3%;
+    font-family: 'Courier New', Courier, monospace;
+    float: left; 
+}
+.logo a:hover{
+    background-color: rgba(14, 13, 13, 0.9);
+    color: white;
+}
+
+/*===== SOCIAL MEDIA OPTIONS =====*/
+
+.socialnav a{
+    margin: 0%;    
+    float: right;
+    
+}
+
+.socialnav a:hover{
+    background-color: rgba(255, 255, 255, 0.205);
+    font-weight: bolder;
+}
+
+/*------------------------------------------------------------
+                           HEADER 
+------------------------------------------------------------*/
+
 .header{
-    background: linear-gradient(rgb(0,0,0,0.8),rgb(255,255,255,0.8)),
+    background: linear-gradient(rgb(0,0,0,0.8),rgba(158, 150, 150, 0.8)),
     url("https://images-prod.healthline.com/hlcmsresource/images/AN_images/healthy-eating-ingredients-1296x728-header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,11 +93,14 @@
 }
 
 .header h1{
-    margin-top: 20%;
+    margin-top: 16%;
     text-transform: uppercase;
     padding: 20px; 
 }
 
+/*------------------------------------------------------------
+                           GENERAL 
+------------------------------------------------------------*/
 
 .row:after{
     content: "";
@@ -65,14 +117,11 @@
     background-color: rgba(99, 96, 96, 0.5);
     float: left;
     width: 50%;
-    
 }
 
-
-
-
-
-
+/*------------------------------------------------------------
+                          MENU SECTION
+/*----------------------------------------------------------*/
 
 #menu{
     padding: 10%;
@@ -104,16 +153,13 @@
 }
 
 #menu img{
-    width: 110%;
+    width: 100%;
     height: 540px;
 }
 
-
-
-
-
-
-
+/*------------------------------------------------------
+                    ABOUT SECTION
+------------------------------------------------------*/
 
 
 #about{
@@ -145,13 +191,9 @@
     height: 500px;
 }
 
-
-
-
-
-
-
-
+/*----------------------------------------------------------
+                      CONTACT SECTION
+----------------------------------------------------------*/
 
 #contact{
     padding: 10%;
@@ -175,10 +217,11 @@
     margin: 2px;
 }
 
+/*=================== FORM INPUT ===================*/
 
 input[type="text"],input[type="tel"],input[type="email"]
-{
-    width: 89%;
+{   
+    width: 88%;
     height: 40px;
     font-size: 20px;
     margin: 5%;
@@ -188,7 +231,7 @@ input[type="text"],input[type="tel"],input[type="email"]
 
 textarea[type="com"]
 {
-    width: 89%;
+    width: 88%;
     height: 70px;
     font-size: 20px;
     margin: 5%;
@@ -202,14 +245,12 @@ input[type="submit"]
     height: 40px;
     font-size: 20px;
     margin: 5%;
-    border: none;
+    border: none;    
     background-color: rgb(33, 190, 41);
-
 }
 
 
-
-
+/*================ DISCOUNT & PRICE SPANS ================*/
 
 .indicator{
     background-color: #df3758;
@@ -227,3 +268,8 @@ input[type="submit"]
     border-radius: 20px;
     box-shadow: 2px 2px rgb(10, 99, 29);
 }
+
+
+/*==================================================================
+                           END STYLE                                  
+==================================================================*/                          
