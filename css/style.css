@@ -73,8 +73,8 @@
 }
 
 .socialnav a:hover{
+    border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.205);
-    font-weight: bolder;
 }
 
 /*------------------------------------------------------------
