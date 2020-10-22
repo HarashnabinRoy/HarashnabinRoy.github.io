@@ -56,12 +56,15 @@
     margin-left: 3%;
     font-family: 'Courier New', Courier, monospace;
     float: left; 
+    border: 1px solid #F2E5D7;
+    padding: 3px 10px;
+    margin-top: 10px
 }
 .logo a:hover{
     background-color: rgba(14, 13, 13, 0.9);
     color: white;
+    
 }
-
 /*===== SOCIAL MEDIA OPTIONS =====*/
 
 .socialnav a{
