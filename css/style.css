@@ -14,6 +14,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
 /*------------------------------------------------------------
                      TOP NAVIGATION BAR 
 ------------------------------------------------------------*/
@@ -95,6 +99,8 @@
     url("https://images-prod.healthline.com/hlcmsresource/images/AN_images/healthy-eating-ingredients-1296x728-header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     
     height: 100vh;
     color: white;
@@ -106,8 +112,69 @@
 .header h1{
     margin-top: 16%;
     text-transform: uppercase;
-    padding: 20px; 
+    padding: 10px; 
 }
+
+/*------------------------------------------------------------
+                           HEADER 2
+------------------------------------------------------------*/
+
+.head_2{
+    background: linear-gradient(rgb(0,0,0,0.8),rgba(158, 150, 150, 0.8)),
+    url("https://www.sickchirpse.com/wp-content/uploads/2016/06/Burrito-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    height: 60vh;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+/*------------------------------------------------------------
+                           HEADER 3
+------------------------------------------------------------*/
+
+.head_3{
+    background: linear-gradient(rgb(0,0,0,0.8),rgba(158, 150, 150, 0.8)),
+    url("https://images.squaremeal.co.uk/cloud/restaurants/14253/images/c206524b-73e3-4190-bfbf-0d047121b36f.jpg?w=900&h=600&fit=crop");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    height: 60vh;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+/*------------------------------------------------------------
+                           CAPTION 
+------------------------------------------------------------*/
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
 
 /*------------------------------------------------------------
                            GENERAL 
